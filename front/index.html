@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copo de Nieve de Koch (Web)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generador del Copo de Nieve de Koch</h1>
+    
+    <div class="controls">
+        <label for="recursion">Nivel de Recursión:</label>
+        <input type="number" id="recursion" value="4" min="0" max="6">
+        
+        <label class="checkbox-label">
+            <input type="checkbox" id="is-complete" checked>
+            <span>Completo</span>
+        </label>
+        <button id="draw-button">Dibujar</button>
+    </div>
+    
+    <div class="canvas-container">
+        <canvas id="koch-canvas" width="600" height="600"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
