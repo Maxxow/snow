@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- CORRECCIÓN IMPORTANTE ---
     // Reemplaza esta URL con la URL de tu backend en Render cuando la tengas.
     // La obtendrás después de desplegar el "Web Service".
-    const BACKEND_URL = 'https://SHINMON.onrender.com/generate_snowflake';
+    const BACKEND_URL = 'https://snow-33vc.onrender.com/generate_snowflake';
 
     function drawSnowflake(points) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
